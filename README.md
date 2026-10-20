@@ -121,3 +121,5 @@ All routes marked ✓ require `Authorization: Bearer <token>`.
 - All backend files pass Node syntax checks (`node --check`)
 - Frontend builds cleanly via `vite build` and serves correctly via `vite preview`
 - **Not verified in the build sandbox:** live database round-trips end-to-end (registration → login → CRUD → analytics), since no MongoDB instance was available there. Test this against your own MongoDB connection once running.
+
+This is the updated version of my readme 
